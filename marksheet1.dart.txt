@@ -1,0 +1,70 @@
+void main(){
+   var student = ("                  Student Name:           Ahmed Ali");
+  print(student);
+   var reg  =("                  Registeration No:       123456");
+  print(reg);
+   var date = ("                  Dated:                  09-06-2021");
+  print(date);
+  
+  
+  var sub = ("S.no      Subject      Max Marks      Marks Obtained      Result/Remarks");
+  print(sub);
+  
+  num mm1 =100;
+  num mo1 = 50;
+  print("1.        Islamiat        ${mm1}              ${mo1}             Pass");
+  
+  num mm2 =100;
+  num mo2 = 50;
+  print("2.        Urdu            ${mm2}              ${mo2}             Pass");
+
+  
+  num mm3 =100;
+  num mo3 = 50;
+  print("3.        Pak Studies     ${mm3}              ${mo3}             Pass");
+  
+  num mm4 =100;
+  num mo4 = 50;
+  print("4.        Chemistry       ${mm4}              ${mo4}             Pass");
+  
+  num mm5 =100;
+  num mo5 = 50;
+  print("5.        Math            ${mm5}              ${mo5}             Pass");
+  
+  
+  num maxmarks = mm1+mm2+mm3+mm4+mm5;
+  print("Max Marks:        ${maxmarks}");
+  
+  num marksobtained = mo1+mo2+mo3+mo4+mo5;
+  print("Marks Obtained:   ${marksobtained}");
+  
+  num per = marksobtained/maxmarks*100;
+  print("Percentage:       ${per}%");
+  
+  if(per>=70){
+    print("Grade: (A)");  
+  }
+  
+  else if (per>=60){
+    print("Grade: (B)");
+  }
+  
+  else if (per>=40){
+    print("Grade: (C)");
+  }
+  
+  else(
+    print("Status: Failed")
+  );
+}
+  
+
+  
+ 
+
+  
+  
+  
+  
+
+ 
